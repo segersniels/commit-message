@@ -52,7 +52,7 @@ export default function Home() {
       </Head>
 
       <div className={styles.wrapper}>
-        <h1 className={styles.title}>Generate your commit message</h1>
+        <h1 className={styles.title}>Generate your commit message using AI</h1>
 
         <form onSubmit={handleSubmit}>
           <TextArea

@@ -9,18 +9,18 @@ export default function Document() {
           href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>"
         />
 
-        <meta name="description" content="Generate your commit message" />
+        <meta name="description" content="Generate your commit message using AI" />
         <meta property="og:site_name" content="commit-message.com" />
         <meta
           property="og:description"
-          content="Generate your commit message"
+          content="Generate your commit message using AI"
         />
         <meta property="og:title" content="Generate Commit Message" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Generate Commit Message" />
         <meta
           name="twitter:description"
-          content="Generate your commit message"
+          content="Generate your commit message using AI"
         />
 
         <meta
