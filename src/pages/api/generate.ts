@@ -22,7 +22,7 @@ export default async function handler(
 
     ${req.body.context}
 
-    Your commit message should not exceed the 80 character limit unless it's impossible to provide enough context within the limit.
+    Your commit message should not exceed the 80 character limit. Try to stay away from convention prefixes.
     A good commit message should provide enough information to understand the changes without being too verbose.
 `;
 
