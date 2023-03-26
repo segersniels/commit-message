@@ -24,9 +24,10 @@ export default async function handler(
 
     Your commit message should not exceed the 80 character limit. Try to stay away from convention prefixes.
     A good commit message should provide enough information to understand the changes without being too verbose.
+    Limit yourself to one sentence but don't end it in a punctuation mark.
 `;
 
   const message = await generate(prompt);
 
-  return res.status(200).json({ message });
+  return res.status(200).json({ message: message?.replace(/\.$/g, '') });
 }
